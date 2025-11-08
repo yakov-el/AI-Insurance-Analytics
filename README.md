@@ -48,8 +48,6 @@ rag_module.py — RAG logic: retrieval and generation of action plans
 
 DISCUSSION.md — Design considerations, architecture notes, and reasoning
 
-corpus_lapse/ — Source documents for lapse-prevention recommendations
-
-corpus_leads/ — Source documents for lead-conversion recommendations
+rag_docs/ — Source documents for the RAG
 
 requirements.txt — Dependency list
