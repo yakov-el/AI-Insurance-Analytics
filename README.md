@@ -16,9 +16,6 @@ It is recommended to run it inside a virtual environment.
 
 pip install -r requirements.txt
 
-
-(The requirements.txt file should include libraries such as pandas, numpy, sklearn, lightgbm, xgboost, joblib, shap, and others you used.)
-
 🚀 How to Run
 
 Execute the full pipeline with a single command:
@@ -43,11 +40,11 @@ out/RAG_lead_conversion_plans.json — Generated action plans for lead conversio
 
 run.py — Main orchestrator script for the entire workflow
 
-data_prep.py — Synthetic data generation and temporal splitting
+data_generator.py — Synthetic data generation and temporal splitting
 
 model_train.py — Training, tuning, and evaluating predictive models
 
-rag.py — RAG logic: retrieval and generation of action plans
+rag_module.py — RAG logic: retrieval and generation of action plans
 
 DISCUSSION.md — Design considerations, architecture notes, and reasoning
 
@@ -56,5 +53,3 @@ corpus_lapse/ — Source documents for lapse-prevention recommendations
 corpus_leads/ — Source documents for lead-conversion recommendations
 
 requirements.txt — Dependency list
-
-.gitignore — Git filters
